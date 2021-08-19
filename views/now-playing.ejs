@@ -1,0 +1,7 @@
+<h1>Now Playing</h1>
+<div id="movies-wrapper">
+       
+    <% movies.nowPlaying.forEach(function(item) { %>
+        <div class="movie"><img class="movie-poster" src="<%- item.moviePoster %>"></img><br><%= item.movieTitle %><%= item.movieReleaseDate %></div>
+    <% }); %>
+</div>

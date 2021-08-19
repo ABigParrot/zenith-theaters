@@ -1,0 +1,49 @@
+<h1>My Theater</h1>
+<div class="my-theater-container">
+    <div class="map-wrapper">
+        <div id="map"></div>
+    </div>
+</div>
+<script>
+
+    var marker, infoWindow
+    let itemData = '<%- JSON.stringify(items) %>'
+    var objectData = JSON.parse(itemData)
+    console.log(objectData)
+    function initMap(){ 
+        var location = {lat: 44.798401, lng: -93.067871};
+        var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 10, 
+            center: location
+        });
+
+/*
+        for(var key in objectData){
+            addMarker({lat:objectData[key].lat, lng:objectData[key].lng})
+
+        }
+*/
+
+        objectData.forEach(item => {
+            addMarker({lat:item.lat, lng:item.lng})
+            console.log(item.address)
+            infoWindow = new google.maps.InfoWindow({
+                content: `<p>${item.address}</p>`
+            })
+        });
+        function addMarker(coordinates, information){
+            marker = new google.maps.Marker({
+                position: coordinates,
+                map: map
+                
+            })  
+            marker.addListener('click', function(){
+                infoWindow.open(map,marker)
+            })
+            
+        }
+    }
+
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_yM_V2u4jvwmmB_jBdZp6prqJ0gYXrU8&callback=initMap">
+</script>

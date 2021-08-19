@@ -1,0 +1,32 @@
+{
+    "addresses": [
+        {
+            "address": "643 Yahtzee St, Edina",
+            "name": "Zenith Theaters"
+        },
+        {
+            "address": "7853 May Rd, Minnetonka",
+            "name": "Zenith Theaters"
+        },
+        {
+            "address": "959 Timber Way, Red Wing",
+            "name": "Zenith Theaters"
+        },
+        {
+            "address": "270 Winchester Way, Hastings",
+            "name": "Zenith Theaters"
+        },
+        {
+            "address": "3545 Anderson St, Apple Valley",
+            "name": "Zenith Theaters"
+        },
+        {
+            "address": "7667 Ulysses Ave, Burnsville",
+            "name": "Zenith Theaters"
+        },
+        {
+            "address": "3587 Chariots Road, Saint Paul",
+            "name": "Zenith Theaters"
+        }
+    ]
+}

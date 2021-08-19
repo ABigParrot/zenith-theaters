@@ -1,0 +1,67 @@
+{
+    "nowPlaying":[
+        {
+            "movieTitle": "Star Wars III",
+            "movieReleaseDate": " 5/13/2005",
+            "moviePoster": "img/posters/star-wars-iii.jpg"
+            
+        },
+        {
+            "movieTitle": "Harry Potter and the Goblet of Fire",
+            "movieReleaseDate": " 11/18/2005",
+            "moviePoster": "img/posters/harry-potter-and-the-goblet-of-fire.jpg"
+        },
+        {
+            "movieTitle": "Madagascar",
+            "movieReleaseDate": " 2/25/2006",
+            "moviePoster": "img/posters/Madagascar-movie-poster.jpg"
+        },
+        {
+            "movieTitle": "Batman Begins",
+            "movieReleaseDate": " 6/15/2005",
+            "moviePoster": "img/posters/batman-begins.jpg"
+
+        },
+        {
+            "movieTitle": "Stealth",
+            "movieReleaseDate": " 7/29/2005",
+            "moviePoster": "img/posters/stealth.jpg"
+        },
+        {
+            "movieTitle": "King Kong",
+            "movieReleaseDate": " 12/14/2005",
+            "moviePoster": "img/posters/king-kong.jpg"
+        },
+        {
+            "movieTitle": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+            "movieReleaseDate": " 12/9/2005",
+            "moviePoster": "img/posters/the-chronicles-of-narnia.jpg"
+        },
+        {
+            "movieTitle": "Everything Is Illumiunated",
+            "movieReleaseDate": " 11/4/2005",
+            "moviePoster": "img/posters/everything-is-illuminated.jpg"
+        },
+        {
+            "movieTitle": "The Pacifier",
+            "movieReleaseDate": " 3/4/2005",
+            "moviePoster": "img/posters/the-pacifier.jpg"
+        },
+        {
+            "movieTitle": "Mr and Mrs Smith",
+            "movieReleaseDate": " 6/7/2005",
+            "moviePoster": "img/posters/mr-and-mrs-smith-poster.jpg"
+        },
+        {
+            "movieTitle": "Phantom of the Opera",
+            "movieReleaseDate": " 12/22/2004",
+            "moviePoster": "img/posters/the-phantom-of-the-opera.jpg"
+        },
+        {
+            "movieTitle": "Are We There Yet?",
+            "movieReleaseDate": " 1/21/2005",
+            "moviePoster": "img/posters/are-we-there-yet.jpg"
+        }
+        
+    ]
+}

@@ -1,0 +1,11 @@
+Make index page
+- Big column
+- small column (side bar)
+
+Make about page 
+- Full width
+
+Make now playing page
+
+Make My Theater page
+-Implement map API 
